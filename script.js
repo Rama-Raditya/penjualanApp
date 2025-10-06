@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let products = [];
     let cart = [];
     const API_URL = 'https://fakestoreapi.com/products';
-    const SELLER_WHATSAPP_NUMBER = '6283131130557'; // Ganti dengan nomor WhatsApp penjual
+    const SELLER_WHATSAPP_NUMBER = '6288991162533'; // Ganti dengan nomor WhatsApp penjual
 
 
     // --- Functions ---
@@ -369,5 +369,6 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- Pemuatan Awal ---
     fetchProducts();
 });
+
 
 
