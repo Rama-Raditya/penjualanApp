@@ -239,9 +239,9 @@ document.addEventListener('DOMContentLoaded', () => {
             return;
         }
 
-        const name = checkoutForm.name.value.trim();
-        const phone = checkoutForm.phone.value.trim();
-        const address = checkoutForm.address.value.trim();
+    const name = document.getElementById('name').value.trim();
+    const phone = document.getElementById('phone').value.trim();
+    const address = document.getElementById('address').value.trim();
 
         if (!name || !phone || !address) {
             alert('Mohon lengkapi semua data pada form checkout.');
@@ -249,8 +249,8 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
     let message = `🛒Pesanan Baru dari\n`;
-        message += `👤Nama: ${name}\n`;
-        message += `📞Nomor Telepon: ${phone}\n\n`;
+        message += `👤Nama: ${name}`;
+        message += `📞Nomor Telepon: ${phone}`;
         message += `🏡Alamat: ${address}\n\n`;
         message += `*📝Detail Pesanan:*\n`;
 
