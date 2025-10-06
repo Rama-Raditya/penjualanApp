@@ -250,7 +250,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     let message = `🛒Pesanan Baru dari\n`;
         message += `👤Nama: ${name}\n`;
-        message += `📞Nomor Telepon: ${phone}`;
+        message += `📞Nomor Telepon: ${phone}\n`;
         message += `🏡Alamat: ${address}\n\n`;
         message += `*📝Detail Pesanan:*\n`;
 
@@ -373,6 +373,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- Pemuatan Awal ---
     fetchProducts();
 });
+
 
 
 
