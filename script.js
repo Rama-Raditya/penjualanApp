@@ -248,14 +248,12 @@ document.addEventListener('DOMContentLoaded', () => {
             return;
         }
 
-            let message = `
-            🛒 Pesanan Baru dari
-            👤 Nama: ${name}
-            📞 Nomor Telepon: ${phone}
-            🏡 Alamat: ${address}
-            
-            *📝 Detail Pesanan:*
-            `;
+        let message = `🛒 Pesanan Baru dari\n`;
+        message += `👤 Nama: ${name}\n`;
+        message += `📞 Nomor Telepon: ${phone}\n`;
+        message += `🏡 Alamat: ${address}\n\n`;
+        message += `*📝 Detail Pesanan:*\n`;
+
 
 
         let total = 0;
@@ -376,6 +374,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- Pemuatan Awal ---
     fetchProducts();
 });
+
 
 
 
