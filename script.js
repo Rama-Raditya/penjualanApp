@@ -35,6 +35,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let products = [];
     let cart = [];
     const API_URL = 'https://fakestoreapi.com/products';
+    const SELLER_WHATSAPP_NUMBER = '6283131130557'; // Ganti dengan nomor WhatsApp penjual
 
 
     // --- Functions ---
@@ -263,7 +264,7 @@ document.addEventListener('DOMContentLoaded', () => {
         message += `\n*Total: Rp ${total.toLocaleString('id-ID')}*`;
 
         const encodedMessage = encodeURIComponent(message);
-        const whatsappUrl = `https://wa.me/${phone}?text=${encodedMessage}`;
+        const whatsappUrl = `https://wa.me/${SELLER_WHATSAPP_NUMBER}?text=${encodedMessage}`;
 
         window.open(whatsappUrl, '_blank');
 
