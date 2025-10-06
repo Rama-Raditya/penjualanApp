@@ -246,8 +246,7 @@ document.addEventListener('DOMContentLoaded', () => {
             alert('Mohon lengkapi semua data pada form checkout.');
             return;
         }
-
-        let message = `*Pesanan dari ${name}*\n`;
+    let message = `*Pesanan dari ${name}*\n`;
         message += `Alamat: ${address}\n\n`;
         message += `*Detail Pesanan:*\n`;
 
@@ -369,6 +368,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- Pemuatan Awal ---
     fetchProducts();
 });
+
 
 
 
